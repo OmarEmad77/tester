@@ -1,0 +1,49 @@
+.autocomplete-list{
+    max-height: 400px;
+    border: 1px solid var(--border-color);
+}
+.filter{
+    border: 1px solid var(--border-color);
+    background-color: white;
+
+}
+.search-list{
+  background-color: white;
+  height: 300px;
+  position: absolute;
+  z-index: 5;
+  border: 1px solid rgb(133, 133, 133);
+
+}
+.search-item{
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.search-item:hover{
+  background-color: rgb(240, 240, 240);
+}
+.search-filter{
+  width: 60%;
+}
+.filter-{
+  cursor: pointer;
+}
+.page-link{
+  color: black;
+}
+.pagination .page-item .page-link {
+    border-color: var(--border-color);
+    cursor: pointer;
+  }
+  
+  .pagination .page-item.active .page-link {
+    background-color:var(--main-color); 
+    color: #fff; 
+    border-color: var(--border-color);
+  }
+  @media screen and (max-width:992px){
+    .search-filter{
+      width: 90%;
+    }
+  }
+
